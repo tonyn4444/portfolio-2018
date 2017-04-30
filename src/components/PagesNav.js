@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import { Icon } from 'semantic-ui-react';
 
 const PagesNav = () => (
   <div className="stars">
@@ -13,16 +14,18 @@ const PagesNav = () => (
               transitionLeaveTimeout={500}
               transitionAppear={true}
               transitionAppearTimeout={500}>
-                <Link to="/"><span className="modal-links">Home</span></Link>
+              <div id="top-half-nav">
+                <Link to="/"><span className="modal-links"><Icon name="empty star" size="big" color="cyan" /></span></Link>
                 <Link to="/projects"><span className="modal-links">Projects</span></Link>
                 <Link to="/about"><span className="modal-links">About</span></Link>
                 <Link to="/contact"><span className="modal-links">Contact</span></Link>
-                <div id="nav-page-social-links">
-                <Link to="#"><span className="social-links">LinkedIn</span></Link>
-                <Link to="#"><span className="social-links">GitHub</span></Link>
-                <Link to="#"><span className="social-links">CodePen</span></Link>
-                <Link to="#"><span className="social-links">Twitter</span></Link>
-                </div>
+              </div>
+              <div id="nav-page-social-links">
+                <Link to="#"><span className="social-links"><Icon color="white" name="linkedin square" />LinkedIn</span></Link>
+                <Link to="#"><span className="social-links"><Icon color="white" name="github" />GitHub</span></Link>
+                <Link to="#"><span className="social-links"><Icon color="white" name="codepen" />CodePen</span></Link>
+                <Link to="#"><span className="social-links"><Icon color="white" name="twitter" />Twitter</span></Link>
+              </div>
     		</ReactCSSTransitionGroup>
   	   </div>
      </div>
