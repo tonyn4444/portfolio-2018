@@ -18,8 +18,8 @@ const AppRoutes = () => (
       <Route exact path="/" component={App}/>
       <Route path="/pages" component={PagesNav}/>
       <Route path="/about" component={About}/>
-      <Route path="/work" component={Work}/>
-      <Route path="/contact" component={Contact}/>
+      <Route path="/projects" component={Work}/>
+      <Route path="/contact" component={Contact}/> 
     </div>
   </Router>
 )

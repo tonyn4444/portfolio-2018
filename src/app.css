@@ -1,7 +1,4 @@
 #home-container {
-	background: #000000;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	margin: 0;
 	padding: 0;
 	height: 100vh;
@@ -17,6 +14,7 @@
 html, body {
 	padding: 0;
 	margin: 0;
+	color: white;
 }
 
 .nav-links {
@@ -28,6 +26,24 @@ html, body {
 	/*border: 2px solid red;*/
 }
 
+#explore-link {
+	font-size: 35px;
+	border-bottom: 4px solid cyan;
+	padding: 0 15px;
+	padding-bottom: 5px;
+}
+
+#explore-link:hover {
+	background: cyan;
+	color: white;
+}
+
+#name {
+	font-size: 55px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
 
 #exit-pages {
 	position: absolute;
@@ -37,7 +53,7 @@ html, body {
 
 #content-container {
 	height: 100vh;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	text-align: center;
 }
 
@@ -45,8 +61,15 @@ html, body {
 
 #nav-container {
 	/*border: 2px solid red;*/
-	height: 100vh;
+	max-height: 100vh;
 	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#full {
+	border: 2px solid red;
+	height: 2000px;
 }
 
 .h2 {
@@ -56,24 +79,135 @@ html, body {
 .work-headers {
 	font-size: 3em;
 }
-
-#work-container {
-	border: 2px solid red;
-	height: 100vh;
+#projects-container {
+	/*border: 2px solid red;*/
 	text-align: center;
 }
 
 .work-intro-content {
-	margin-top: 20%;
+	color: white;
+}
+
+#animated-button {
+	background: none;
+	color: white;
+	/*border: 2px solid red;*/
+	margin-top: -20px;
+	width: 100%;
+	font-size: 35px;
+	border-bottom: 4px solid cyan;
 }
 
 h1 {
 	margin-top: 0;
 }
 
+#home-name-explore {
+	/*border: 2px solid red;*/
+	margin-top: 29%;
+	padding: 20px;
+	padding-bottom: 30px;
+}
+
 .home-content {
-	border: 2px solid red;
+	/*border: 2px solid red;*/
+	margin-top: 2%;
+	display: inline-block;
+	width: 700px;
+	height: 500px;
+}
+
+#nav-page-content {
+	/*border: 2px solid blue;*/
+	margin-top: 19%;
+
+}
+
+#nav-page-social-links {
+	font-size: 25px;
+	text-align: center;
+	margin-top: 27%;
+}
+
+#nav-page-links {
 	margin-top: 20%;
+	border: 2px solid blue;
+}
+
+#nav-container {
+	/*border: 2px solid red;*/
+}
+
+
+
+#modal-content {
+	/*border: 2px solid blue;*/
+	text-align: center;
+	margin: 5% auto;
+	padding: 0 20px;
+}
+
+#social-links {
+	/*border: 2px solid blue;*/
+	text-align: center;
+	margin: 25% auto;
+	font-size: 25px;
+}
+
+.social-links {
+	/*border: 2px solid blue;*/
+	padding: 15px 60px;
+	display: inline-block;
+	color: white;
+	border-top: 2px solid cyan;
+	border-spacing: 10px;
+	margin: 2px;
+
+}
+
+
+
+#modal-full {
+	/*border: 2px solid blue;*/
+	height: 500px;
+	/*width: 100%;*/
+}
+
+.social-links:hover, .modal-links:hover {
+	background: cyan;
+}
+
+.cyan {
+	color: cyan;
+}
+
+#home-app-modal {
+	font-size: 35px;
+	/*border-bottom: 4px solid cyan;*/
+	padding: 0 15px;
+	padding-bottom: 5px;
+	background: none;
+	/*border: 2px solid red;*/
+	display: inline-block;
+}
+
+
+
+.app-modal {
+	position: absolute;
+	right: 7px;
+	top: 7px;
+	/*border: 2px solid blue;*/
+}
+
+.modal-links {
+	display: inline-block;
+	color: white;
+	font-size: 50px;
+	font-weight: 700;
+	/*border: 2px solid blue;*/
+	padding: 15px 60px;
+	
 }
 
 a:hover:after, a:focus:after, .active:after {
@@ -84,7 +218,7 @@ a:hover:after, a:focus:after, .active:after {
     position: absolute;
     bottom: 5px; 
     left: 0;
-    background: #0004ff;
+    /*background: #0004ff;*/
     animation: width .2s;
  }
 

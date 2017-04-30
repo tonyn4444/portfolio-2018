@@ -12,7 +12,9 @@
     "react-redux": "^5.0.4",
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "semantic-ui-css": "^2.2.10",
+    "semantic-ui-react": "^0.68.2"
   },
   "scripts": {
     "start": "react-scripts start",

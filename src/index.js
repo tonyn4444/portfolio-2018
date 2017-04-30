@@ -4,6 +4,8 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import AppRoutes from './AppRoutes';
 import reducers from './reducers';
+import 'semantic-ui-css/semantic.min.css';
+import './index.css';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
