@@ -91,7 +91,7 @@ html, body {
 
 #full {
 	/*border: 2px solid red;*/
-	 height: 4100px;
+	 height: 4200px;
 	 background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
@@ -202,7 +202,7 @@ h1 {
 
 
 #modal-content {
-	border: 2px solid blue;
+	/*border: 2px solid blue;*/
 	text-align: center;
 	margin: 17% auto;
 	padding: 0 20px;
@@ -211,10 +211,10 @@ h1 {
 }
 
 #social-links {
-	border: 2px solid blue;
+	/*border: 2px solid blue;*/
 	text-align: center;
-	margin: 22% auto;
 	font-size: 25px;
+	margin-top: 25%;
 }
 
 .social-links {
@@ -231,7 +231,7 @@ h1 {
 
 
 #modal-full {
-	border: 2px solid blue;
+	/*border: 2px solid blue;*/
 	/*height: 750px;*/
 	/*width: 100%;*/
 }
@@ -284,8 +284,16 @@ h1 {
 	font-size: 50px;
 	font-weight: 700;
 	/*border: 2px solid blue;*/
-	padding: 15px 60px;
-	
+	padding: 0 50px;
+}
+
+.navpage-links {
+	display: inline-block;
+	color: white;
+	font-size: 50px;
+	font-weight: 700;
+	border: 2px solid blue;
+	padding: 20px 50px;
 }
 
 a:hover:after, a:focus:after, .active:after {
@@ -344,5 +352,60 @@ a:hover:after, a:focus:after, .active:after {
   transform: translateX(0) !important;
   transition: transform .2s ease-out !important;
   animation: width .2s;
+}
 
+/*Media Queries */
+
+@media only screen and (max-width: 643px) {
+	#modal-content {
+		margin: 0 auto;
+		margin-top: 20%;
+	}
+
+	#social-links {
+		margin: 15% auto;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.modal-links {
+		padding: 0 20px;
+	}
+}
+
+@media only screen and (max-width: 605px) {
+	#modal-content {
+		/*margin: 0 auto;*/
+		padding: 20px 0;
+	}
+
+/*	#social-links {
+		margin: 7% auto;
+	}*/
+}
+
+@media only screen and (max-width: 350px) {
+	.modal-links {
+		padding: 10px 0;
+	}
+	#social-links {
+		padding: 10px 0;
+	}
+}
+
+@media only screen and (max-width: 330px) {
+	#modal-content {
+		margin-top: 0;
+	}
+}
+
+
+@media only screen and (max-width: 1100px) {
+	div#nav-page-social-links {
+		margin-top: 30%;
+	}
+
+	div#top-half-nav {
+		margin-top: 10%;
+	}
 }

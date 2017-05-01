@@ -218,6 +218,30 @@ img {
 	background-color: rgba(255, 255, 255, 1);
 }
 
+@media only screen and (min-width: 1200px) {
+	#full {
+		height: 4500px;
+	}
+}
+
+@media only screen and (max-width: 890px) {
+	#mid-section-header {
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	#bottom-half {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	.social-links-project-page {
+		padding-top: 75px;
+	}
+}
+
+
+
 
 
 @media only screen and (max-width: 995px) {
@@ -229,32 +253,56 @@ img {
   	color: black !important;
   	margin-bottom: 100px;
   	border-bottom: grey 5px solid;
+  	display: none;
   }
 
   h1#mid-section-header {
   	margin-top: 0;
   	padding-top: 0;
   }
+  #project-links-atag {
+  	text-align: center;
+  }
+
+  h1#project-title {
+
+  }
+
+  #bottom-half {
+  	text-align: center;
+  }
 
   div#top-half {
   	background-color: black;
+  	text-align: center;
+  	justify-content: center;
   }
 
   div#left-section.col-md-6.col-xs-12 {
-  background-color: black;
+  	background-color: black;
   }
 
   div#section3-left-side.col-md-6.col-xs-12.main {
-  background-color: black;
+	  background-color: black;
+	  text-align: center;
   }
   div#section3 {
   	margin-top: 10%;
   	background-color: black;
   }
 
+  #top-half-section3 {
+  	text-align: center;
+  }
+
+  #bottom-half-section3 {
+  	text-align: center;
+  }
+
   div#right-side.col-md-6.col-xs-12.main {
   	background-color: black;
   }
+
   div#left-side.col-md-6.col-xs-12.main {
   	background-color: black;
   }
@@ -270,5 +318,6 @@ img {
 
   div#divide-section.row {
   	background-color: black;
+  	display: none;
   }
 }

@@ -9,13 +9,13 @@ import '../index.css';
 class Contact extends Component {
 	render() {
 		return (
-			<div className="stars">
+			<div className="stars" id="contact-main">
 				<div className="twinkling">
 
 					<div className="container">
 
-						<div className="row">
-							<div className="col-md-12" id="header-contact-container">
+						<div className="row" id="contact-container">
+							<div className="col-md-12 col-xs-12" id="header-contact-container">
 							<ReactCSSTransitionGroup
                 transitionName="slide"
                 transitionEnterTimeout={500}

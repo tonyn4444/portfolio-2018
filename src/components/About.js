@@ -25,12 +25,12 @@ class About extends Component {
 						<div className="about-header container" id="title">
 							<div className="row">
 								<div className="col-md-12">
-							<em><h1 className="about-header" id="titlecontent"><span className="myname">About Me</span><br/><br/> I love to build <span className="cyan">meaningful</span> things<br /><br />
-							Outside of code, some of my <span className="cyan">hobbies</span> are -<br/><br/>
+							<em><h1 className="about-header" id="titlecontent"><span className="myname">About Me</span><br/><br/> I enjoy building and working on <span className="cyan">meaningful</span> things<br /><br />
+							<span id="decorate">Outside of code</span><br/><br/>Hobbies<br/><br/>
 							- Lifting<br></br> - Reading<br/>- Playing Music<br/><br/>
 
-							I love spending time with my dog, <span className="cyan">Ace</span><br/><br/>
-							Here's a picture of him. Isn't he cute?<br/>
+							This is a picture of my dog, <span className="cyan">Ace</span><br/><br/>
+							Isn't he cute?
 							<br /><div id="what" className="thumbnail"><img id="ace-pic" src={ace} /></div><br/><br/></h1></em>
 								</div> 
 							</div>
@@ -47,9 +47,7 @@ class About extends Component {
 
 				<div className="row" id="empl-section1">
 					<div className="col-md-6 about-pic">
-						<div className="thumbnail">
-							<img className="about-img-tag" src={this.props.about[0].image} />
-						</div>
+							<img className="about-img-tag" id="first-img" src={this.props.about[0].image} />
 					</div>
 
 					<div className="col-md-6 about-descr">
@@ -58,9 +56,7 @@ class About extends Component {
 					</div>
 
 					<div className="col-md-6 about-pic">
-						<div className="thumbnail">
 							<img className="about-img-tag" src={this.props.about[1].image} />
-						</div>
 					</div>
 
 					<div className="col-md-6 about-descr">
