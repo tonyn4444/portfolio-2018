@@ -1,4 +1,4 @@
-import yelpCamp from '../images/fulls/yelp-camp.png';
+import yelpCamp from '../images/fulls/reviewshare.png';
 import wiki from '../images/fulls/wiki.png';
 import movieDB from '../images/fulls/moviedb.png';
 import financeGo from '../images/fulls/finance-go.png';

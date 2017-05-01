@@ -11,23 +11,29 @@
 	margin-top: 45%;
 }
 
+.white-text {
+	color: white;
+	font-size: 35px;
+	font-style: italic;
+}
+
 #intro-container {
 	display: inline-block;
 }
 
 #top-half {
 	margin-top: 20px;
-	border-bottom: 5px solid grey;
+	border-bottom: 5px solid dodgerblue;
 	color: #00bcd4;
 	height: 50%;
-	/*border: 2px solid green;*/
+	/*border: 20px solid green;*/
 	text-align: left;
 }
 
 #project-title {
 	/*border: 2px solid red;*/
 	margin-bottom: 0;
-	font-size: 55px;
+	font-size: 45px;
 	border-bottom: 4px solid grey;
 }
 
@@ -41,7 +47,7 @@
 }
 
 .description {
-	/*border: 2px solid red;*/
+	/*border: 2px solid green;*/
 	color: grey;
 	margin-top: 0;
 	font-size: 20px;
@@ -74,7 +80,7 @@
 }
 
 #top-half-section3 {
-	border-bottom: 5px grey solid;
+	border-bottom: 5px dodgerblue solid;
 	margin-top: 15px;
 	margin-left: 10px;
 	color: #00bcd4;
@@ -103,7 +109,7 @@
 }
 
 .greyborder{
-	border-top: 10px solid grey;
+	border-top: 5px solid grey;
 }
 
 #get-in-touch {
@@ -129,6 +135,7 @@
 }
 
 #mid-section-header {
+	/*border: 2px solid red;*/
 	color: white;
 	font-size: 55px;
 	padding-top: 20px;
@@ -144,16 +151,51 @@
 	border: 2px solid red;
 }
 
+div#section3-left-side.col-md-6.col-xs-12.main {
+	/*border: 10px solid cyan;*/
+}
+
+div#mid-section.row {
+}
+
+div#top-half-section3 {
+	/*border: 20px solid green;*/
+	height: 50vh;
+	padding: 20px;
+}
+
+div#bottom-half-section3 {
+	/*border: 20px solid green;*/
+	height: 50vh;
+	padding: 20px;
+}
+
+div#top-half {
+	height: 50vh;
+	padding: 20px;
+}
+
+div#bottom-half {
+	height: 50vh;
+	padding: 20px;
+}
+
+
+
 img {
 	margin-top: 20px;
 }
 
+#animate-social {
+	/*border: 2px solid red;*/
+}
+
 #learn-more {
 	margin: 25px auto;
-	color: white;
+	color: cyan;
 	font-size: 40px;
 	width: 250px;
-	border-bottom: 4px solid cyan;
+	/*border-bottom: 4px solid cyan;*/
 }
 
 #learn-more:hover {
@@ -161,15 +203,72 @@ img {
 }
 
 #section3 {
-	border-bottom: 10px solid grey;
-    /* RGBa with 0.6 opacity */
-    background-color: rgba(0, 188, 212, 0.60);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"
+	/*border: 2px solid red;*/
+	margin-top: 5%;
+	border-bottom: 5px solid grey;
+  /* RGBa with 0.6 opacity */
+  background-color: rgba(0, 188, 212, 0.60);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"
 }
 
 #section3-left-side {
 	background-color: rgba(255, 255, 255, 1);
+}
+
+
+
+@media only screen and (max-width: 995px) {
+
+	#bottom-contact {
+		border-top: 5px solid dodgerblue;
+	}
+  #get-in-touch {
+  	color: black !important;
+  	margin-bottom: 100px;
+  	border-bottom: grey 5px solid;
+  }
+
+  h1#mid-section-header {
+  	margin-top: 0;
+  	padding-top: 0;
+  }
+
+  div#top-half {
+  	background-color: black;
+  }
+
+  div#left-section.col-md-6.col-xs-12 {
+  background-color: black;
+  }
+
+  div#section3-left-side.col-md-6.col-xs-12.main {
+  background-color: black;
+  }
+  div#section3 {
+  	margin-top: 10%;
+  	background-color: black;
+  }
+
+  div#right-side.col-md-6.col-xs-12.main {
+  	background-color: black;
+  }
+  div#left-side.col-md-6.col-xs-12.main {
+  	background-color: black;
+  }
+
+  div.col-md-6.main.col-xs-12 {
+  	background-color: black;
+  }
+
+
+  div#section2.row {
+  	background-color: black;
+  }
+
+  div#divide-section.row {
+  	background-color: black;
+  }
 }
