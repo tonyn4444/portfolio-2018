@@ -31,10 +31,10 @@ export default class AppModal extends Component {
         	<Link to="/contact"><span className="modal-links">Contact</span></Link>
         </div>
         <div id="social-links">
-        	<Link to="https://linkedin.com/in/tony-t-nguyen"><span className="social-links"><Icon color="cyan" name="linkedin square" />LinkedIn</span></Link>
-        	<Link to="https://github.com/tonyn4444"><span className="social-links"><Icon color="cyan" name="github" />GitHub</span></Link>
-        	<Link to="http://codepen.io/tonyn4444"><span className="social-links"><Icon color="cyan" name="codepen" />CodePen</span></Link>
-        	<Link to="https://www.instagram.com/tonyspamony/?hl=en"><span className="social-links"><Icon color="cyan" name="instagram" />Instagram</span></Link>
+        	<a href="https://linkedin.com/in/tony-t-nguyen" target="_blank"><span className="social-links"><Icon color="cyan" name="linkedin square" />LinkedIn</span></a>
+        	<a href="https://github.com/tonyn4444" target="_blank"><span className="social-links"><Icon color="cyan" name="github" />GitHub</span></a>
+        	<a href="http://codepen.io/tonyn4444" target="_blank"><span className="social-links"><Icon color="cyan" name="codepen" />CodePen</span></a>
+        	<a href="https://www.instagram.com/tonyspamony/?hl=en" target="_blank"><span className="social-links"><Icon color="cyan" name="instagram" />Instagram</span></a>
         </div>
         <Modal.Actions>
         </Modal.Actions>
