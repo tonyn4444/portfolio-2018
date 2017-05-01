@@ -1,5 +1,5 @@
 #heading {
-	margin-top: 30%;
+	margin-top: 25%;
 	font-size: 55px;
 	border-bottom: cyan 3px solid;
 	display: inline-block;
@@ -35,7 +35,7 @@
 	color: white;
 	padding-top: 10px;
  	margin-bottom: 5%;
- 	border: 5px solid cyan;
+ 	border-bottom: 5px solid cyan;
 }
 
 #job-title {
@@ -71,6 +71,7 @@
 
 .about-pic {
 	height: 50%;
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 
@@ -87,7 +88,7 @@
 }
 
 #main-about {
-	height: 2850px;
+	height: 2500px;
 }
 
 #empl-section1 {
@@ -108,6 +109,13 @@
 	}
 }
 
+
+@media only screen and (max-width: 1000px) {
+
+	#main-about {
+		height: 2900px;
+	}
+}
 
 
 
