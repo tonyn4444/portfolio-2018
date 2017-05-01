@@ -95,7 +95,7 @@ html, body {
 
 #full {
 	/*border: 2px solid red;*/
-	 height: 4200px;
+	 height: 4400px;
 	 background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
@@ -123,7 +123,6 @@ html, body {
 #section2 {
     /* RGBa with 0.6 opacity */
     background-color: rgba(0, 188, 212, 0.6);
-    /*border: 5px solid dodgerblue;*/
     /* For IE 5.5 - 7*/
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
     /* For IE 8*/

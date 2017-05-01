@@ -12,6 +12,7 @@ class App extends Component {
     return (
       <div className="stars">
         <div className="twinkling">
+          <div className="clouds">
             <div className="container home-container">
               <div className="home-content">
               <ReactCSSTransitionGroup
@@ -34,6 +35,7 @@ class App extends Component {
               </ReactCSSTransitionGroup>
               </div>
             </div>
+          </div>
         </div>
       </div>
     );

@@ -23,7 +23,7 @@
 
 #top-half {
 	margin-top: 20px;
-	border-bottom: 5px solid dodgerblue;
+	border-bottom: 5px solid black;
 	color: #00bcd4;
 	height: 50%;
 	/*border: 20px solid green;*/
@@ -80,7 +80,7 @@
 }
 
 #top-half-section3 {
-	border-bottom: 5px dodgerblue solid;
+	border-bottom: 5px black solid;
 	margin-top: 15px;
 	margin-left: 10px;
 	color: #00bcd4;
@@ -218,9 +218,9 @@ img {
 	background-color: rgba(255, 255, 255, 1);
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1100px) {
 	#full {
-		height: 4500px;
+		height: 4700px;
 	}
 }
 
@@ -247,7 +247,7 @@ img {
 @media only screen and (max-width: 995px) {
 
 	#bottom-contact {
-		border-top: 5px solid dodgerblue;
+		border-top: 5px solid black;
 	}
   #get-in-touch {
   	color: black !important;

@@ -2,13 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import { Icon } from 'semantic-ui-react';
+import '../index.css';
 
 const PagesNav = () => (
   <div className="stars">
     <div className="twinkling">
-    	<div id="nav-container">
-        <div id="nav-page-content">
-    		<ReactCSSTransitionGroup
+      <div className="clouds">
+      	<div id="nav-container">
+          <div id="nav-page-content">
+        		<ReactCSSTransitionGroup
               transitionName="slide"
               transitionEnterTimeout={500}
               transitionLeaveTimeout={500}
@@ -26,10 +28,11 @@ const PagesNav = () => (
                 <a href="http://codepen.io/tonyn4444"><span className="social-links"><Icon color="cyan" name="codepen" />CodePen</span></a>
                 <a href="https://www.instagram.com/tonyspamony/?hl=en"><span className="social-links"><Icon color="cyan" name="instagram" />Twitter</span></a>
               </div>
-    		</ReactCSSTransitionGroup>
-  	   </div>
-     </div>
-   </div>
+    	     </ReactCSSTransitionGroup>
+  	     </div>
+        </div>
+      </div>
+    </div>
   </div>
 )
 
