@@ -9,6 +9,10 @@
 	/*margin-top: 40px;*/
 }
 
+#skills {
+	font-size: 35px;
+}
+
 #content-container {
 	/*border: 2px solid red;*/
 	margin: 0 auto;
@@ -88,7 +92,6 @@
 
 .about-pic {
 	height: 50%;
-	/*background-color: rgba(0, 188, 212, 0.6);*/
 }
 
 .thumbnail {
@@ -119,14 +122,12 @@
 
 #empl-section1 {
 	color: white;
-	/*border: 2px solid red;*/
 	height: 100vh;
 	margin-top: 50px;
 }
 
 
 .col-md-6 {
-	/*border: 2px solid blue;*/
 }
 
 @media only screen and (max-width: 993px) {
@@ -140,10 +141,6 @@
 
 	#main-about {
 		height: 3800px;
-	}
-
-	#empl-section1 {
-		border: 2px solid red;
 	}
  
 }
@@ -238,16 +235,17 @@
 
 @media only screen and (max-width: 420px) {
 	#empl-edu {
-		margin-top: 145%
+		margin-top: 220%
+	}
+		h1#titlecontent.about-header {
+		padding-top: 0;
+		margin-bottom: 20%;
 	}
 
 }
 
 @media only screen and (max-width: 350px) {
-	#empl-edu {
-		margin-top: 155%
-	}
-
+	
 	h1#titlecontent.about-header {
 		padding-top: 0;
 		margin-bottom: 20%;

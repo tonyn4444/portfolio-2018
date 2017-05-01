@@ -292,7 +292,7 @@ h1 {
 	color: white;
 	font-size: 50px;
 	font-weight: 700;
-	border: 2px solid blue;
+	/*border: 2px solid blue;*/
 	padding: 20px 50px;
 }
 
@@ -359,13 +359,19 @@ a:hover:after, a:focus:after, .active:after {
 @media only screen and (max-width: 643px) {
 	#modal-content {
 		margin: 0 auto;
-		margin-top: 20%;
+		margin-top: 15%;
 	}
 
 	#social-links {
 		margin: 15% auto;
 	}
 }
+
+/*@media (min-height: 375px) and (min-width: 670px) {
+    #modal-content {
+    	margin-top: 0;
+    }
+}*/
 
 @media only screen and (max-width: 550px) {
 	.modal-links {
@@ -408,4 +414,24 @@ a:hover:after, a:focus:after, .active:after {
 	div#top-half-nav {
 		margin-top: 10%;
 	}
+}
+
+
+
+@media only screen and (max-height: 730px) {
+    #nav-container {
+    	margin-top: 0;
+    }
+
+    div#top-half-nav {
+		margin-top: 0;
+	}
+
+    #nav-page-social-links {
+    	margin-top: 0;
+    }
+
+    #navpage-links {
+    	padding: 0;
+    }
 }

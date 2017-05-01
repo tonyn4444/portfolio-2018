@@ -88,14 +88,6 @@ class About extends Component {
 
 				</div>
 
-				<div className="row">
-					<div className="col-md-12">
-						<Link to="/contact"><em><h1 id="get-in-touch">Lets get in touch </h1></em></Link>
-					</div>
-				</div>
-
-
-
 				<div className="app-modal" >
           <AppModal />
         </div>

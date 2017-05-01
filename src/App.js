@@ -23,7 +23,7 @@ class App extends Component {
                 <div className="row">
                   <div id="home-name-explore" className="col-md-12 col-xs-12">
                     <h1 id="name">Hi, I'm <span className="cyan">Tony</span></h1>
-                    <h2>Software Developer - React.js - JavaScript - Ruby on Rails</h2>
+                    <h2 id="skills">Software Developer - React.js - JavaScript - Ruby on Rails</h2>
                     <Divider className="divider" />
                     <Link className="inline-block-link" to="/pages"><h3 id="explore-link">Explore</h3></Link>
                   </div>
