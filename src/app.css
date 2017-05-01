@@ -69,15 +69,14 @@ html, body {
 }
 
 #section1 {
-	/*border: 2px solid blue;*/
 	margin: 0 auto;
 	height: 100vh;
 	color: white;
 }
 
 .project-page-intro {
-	/*border: 2px solid yellow;*/
 	height: 500px;
+	font-family: Raleway;
 }
 
 
@@ -119,7 +118,8 @@ html, body {
 #section2 {
     /* RGBa with 0.6 opacity */
     background-color: rgba(0, 188, 212, 0.6);
-
+    border-bottom: 10px solid grey;
+    border-top: 10px solid grey;
     /* For IE 5.5 - 7*/
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
     /* For IE 8*/
@@ -176,8 +176,8 @@ h1 {
 
 #top-half-nav {
 	margin-top: 20%;
-	/*border: 2px solid red;*/
 	margin-right: 4%;
+	font-style: italic;
 }
 
 .home-content {
@@ -186,6 +186,7 @@ h1 {
 	display: inline-block;
 	width: 700px;
 	height: 500px;
+	font-style: italic;
 }
 
 #nav-page-content {
@@ -195,18 +196,13 @@ h1 {
 #nav-page-social-links {
 	font-size: 25px;
 	text-align: center;
-	margin-top: 20%;
+	margin-top: 16%;
 }
 
 #nav-page-links {
 	margin-top: 20%;
 	/*border: 2px solid blue;*/
 }
-
-#nav-container {
-	/*border: 2px solid red;*/
-}
-
 
 
 #modal-content {
@@ -215,6 +211,7 @@ h1 {
 	margin: 17% auto;
 	padding: 0 20px;
 	margin-right: 5%;
+	font-style: italic;
 }
 
 #social-links {
@@ -274,11 +271,11 @@ h1 {
 }
 
 .divider {
-	background-color: grey;
+	background-color: cyan;
 }
 
 .app-modal {
-	position: absolute;
+	position: fixed;
 	right: 7px;
 	top: 7px;
 	/*border: 2px solid blue;*/

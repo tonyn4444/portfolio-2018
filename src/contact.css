@@ -1,0 +1,61 @@
+.app-modal {
+	/*border: 2px solid red;*/
+}
+
+#header-contact {
+	font-family: Raleway;
+	/*border: 2px solid red;*/
+	width: 37%;
+	margin: 0 auto;
+	/*margin-top: 10%;*/
+
+	font-size: 60px;
+	text-align: center;
+	border-bottom: 3px solid cyan;
+	padding: 0 20px;
+}
+
+#header-contact-container {
+	/*border: 2px solid blue;*/
+	margin-top: 15%;
+}
+
+#contact-desc {
+	/*border: 2px solid red;*/
+	/*margin-left: 100px;*/
+	color: grey;
+	text-align: center;
+}
+
+#social-links-contact {
+	/*border: 2px solid blue;*/
+	text-align: center;
+	font-size: 25px;
+	margin-top: 20%;
+}
+
+#mail-link {
+	color: white;
+}
+
+#mail-link:hover {
+	color: cyan;
+}
+
+.container {
+	/*border: 2px solid red;*/
+	margin: 0 auto;
+	color: white;
+	height: 100vh;
+}
+
+#phone {
+	/*border: 2px solid red;*/
+	width: 50%;
+	font-size: 35px;
+	display: inline-block;
+}
+
+.cyan {
+	color: cyan;
+}

@@ -1,7 +1,9 @@
 #project-page-header {
 	font-size: 65px;
 	font-weight: 700;
-	color: cyan;
+	color: white;
+	border-bottom: 3px solid cyan;
+
 	font-family: Raleway, serif !important;
 }
 
@@ -13,24 +15,81 @@
 	display: inline-block;
 }
 
-#right-side {
-	border: 2px solid red;
-	color: black;
-}
-
 #top-half {
-	border: 2px solid blue;
-	height: 50px;
-	margin-top: 50px;
+	margin-top: 20px;
+	border-bottom: 5px solid grey;
 	color: #00bcd4;
-	font-size: 65px;
+	height: 50%;
+	/*border: 2px solid green;*/
+	text-align: left;
 }
 
-#description {
-	font-size: 35px;
+#project-title {
+	/*border: 2px solid red;*/
+	margin-bottom: 0;
+	font-size: 55px;
+	border-bottom: 4px solid grey;
+}
+
+#project-links-atag {
+	border-bottom: 3px solid grey;
+	color: #00bcd4;
+}
+#project-links-atag:hover {
 	color: grey;
+	border-style: none;
 }
 
+.description {
+	/*border: 2px solid red;*/
+	color: grey;
+	margin-top: 0;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#project-links {
+	text-align: left;
+	margin-top: 0;
+	font-size: 35px;
+	/*border-bottom: grey 4px solid;*/
+	/*display: inline-block;*/
+}
+
+#project-links-section3 {
+	text-align: right;
+	margin-top: 0;
+	font-size: 35px;
+	/*border-bottom: grey 4px solid;*/
+	/*display: inline-block;*/
+}
+
+
+#bottom-half-section3 {
+	/*border: 2px solid green;*/
+	color: #00bcd4;
+	height: 50%;
+	text-align: right;
+	padding: 20x;
+}
+
+#top-half-section3 {
+	border-bottom: 5px grey solid;
+	margin-top: 15px;
+	margin-left: 10px;
+	color: #00bcd4;
+	height: 50%;
+	/*border: 2px solid green;*/
+	text-align: right;
+}
+
+#bottom-half {
+	/*border: 2px solid green;*/
+	color: #00bcd4;
+	height: 50%;
+	text-align: left;
+	padding: 20x;
+}
 
 .social-links-project-page {
 	/*border: 2px solid red;*/
@@ -43,8 +102,30 @@
 	border-bottom: 3px solid cyan;
 }
 
+.greyborder{
+	border-top: 10px solid grey;
+}
+
+#get-in-touch {
+	color: white;
+	font-size: 55px;
+	padding: 0 35px;
+	padding-top: 80px;
+	display: inline-block;
+	text-align: center;
+	border-bottom: cyan 4px solid;
+}
+
+#get-in-touch:hover {
+	color: cyan;
+}
+
 .text-white {
 	color: white;
+}
+
+.text-white:hover {
+	color: cyan;
 }
 
 #mid-section-header {
@@ -63,14 +144,24 @@
 	border: 2px solid red;
 }
 
+img {
+	margin-top: 20px;
+}
+
 #learn-more {
 	margin: 25px auto;
+	color: white;
 	font-size: 40px;
 	width: 250px;
 	border-bottom: 4px solid cyan;
 }
 
+#learn-more:hover {
+	background-color: cyan;
+}
+
 #section3 {
+	border-bottom: 10px solid grey;
     /* RGBa with 0.6 opacity */
     background-color: rgba(0, 188, 212, 0.60);
     /* For IE 5.5 - 7*/
