@@ -13,8 +13,9 @@
 
 .white-text {
 	color: white;
-	font-size: 35px;
+	font-size: 30px;
 	font-style: italic;
+	display: none;
 }
 
 #intro-container {
@@ -109,7 +110,7 @@
 }
 
 .greyborder{
-	border-top: 5px solid grey;
+	/*border-top: 5px solid grey;*/
 }
 
 #get-in-touch {
@@ -148,7 +149,7 @@
 #review-share-header {
 	margin-top: 20px;
 	display: inline-block;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 }
 
 div#section3-left-side.col-md-6.col-xs-12.main {
@@ -180,11 +181,12 @@ div#bottom-half {
 	padding: 20px;
 }
 
-
-
-img {
-	margin-top: 20px;
+.thumbnail {
+	margin-top: 10px;
+	border-style: none;
+	padding: 0;
 }
+
 
 #animate-social {
 	/*border: 2px solid red;*/
@@ -205,7 +207,7 @@ img {
 #section3 {
 	/*border: 2px solid red;*/
 	margin-top: 5%;
-	border-bottom: 5px solid grey;
+	/*border-bottom: 5px solid grey;*/
   /* RGBa with 0.6 opacity */
   background-color: rgba(0, 188, 212, 0.60);
   /* For IE 5.5 - 7*/

@@ -13,7 +13,6 @@ class Work extends Component {
 		return (
 			<div className="stars" id="full">
 				<div className="twinkling">
-					<div className="clouds">
 						<div id="projects-container">
 							<div className="container" id="section1">
 								<div className="row" id="intro-container">
@@ -138,7 +137,6 @@ class Work extends Component {
 								</div>
 							</div>
 						</div>
-					</div>
 				</div>
 			</div>
 		)

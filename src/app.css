@@ -129,7 +129,7 @@ html, body {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"
 }
 
-.thumbnail {
+/*.thumbnail {
 	margin: 0% auto;
 	margin-top: 20px;
 	border-style: none;
@@ -140,7 +140,7 @@ html, body {
     border:0;
     box-shadow:0;
     border-radius:0;
-}
+}*/
 
 #right-side {
 	background-color: rgba(255, 255, 255, 1);
@@ -370,11 +370,6 @@ a:hover:after, a:focus:after, .active:after {
 	}
 }
 
-/*@media (min-height: 375px) and (min-width: 670px) {
-    #modal-content {
-    	margin-top: 0;
-    }
-}*/
 
 @media only screen and (max-width: 550px) {
 	.modal-links {
