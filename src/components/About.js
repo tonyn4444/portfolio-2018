@@ -29,9 +29,9 @@ class About extends Component {
 							Outside of code, some of my <span className="cyan">hobbies</span> are -<br/><br/>
 							- Lifting<br></br> - Reading<br/>- Playing Music<br/><br/>
 
-							 I love doing things with my dog, <span className="cyan">Ace</span><br/><br/>
+							I love spending time with my dog, <span className="cyan">Ace</span><br/><br/>
 							Here's a picture of him. Isn't he cute?<br/>
-							<br /><div className="thumbnail"><img id="ace-pic" src={ace} /></div><br/><br/></h1></em>
+							<br /><div id="what" className="thumbnail"><img id="ace-pic" src={ace} /></div><br/><br/></h1></em>
 								</div> 
 							</div>
 						</div>

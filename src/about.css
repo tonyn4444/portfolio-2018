@@ -78,6 +78,14 @@
 	border: 2px solid grey;
 }
 
+#what {
+	/*border: 2px solid red;*/
+	padding: 0;
+	width: 226.78px;
+	height: 400px;
+
+}
+
 .about-pic {
 	height: 50%;
 	/*background-color: rgba(0, 188, 212, 0.6);*/
