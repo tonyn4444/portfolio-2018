@@ -200,6 +200,7 @@ h1 {
 
 #nav-page-links {
 	margin-top: 20%;
+	border-bottom: cyan 3px solid;
 	/*border: 2px solid blue;*/
 }
 
@@ -369,18 +370,31 @@ a:hover:after, a:focus:after, .active:after {
 		margin: 15% auto;
 	}
 }
-
+/*
+@media (min-height: 600px) and (min-width: 300px) {
+	#top-half-nav {
+		margin-top: 0;
+	}
+}*/
 
 @media only screen and (max-width: 550px) {
 	.modal-links {
 		padding: 0 20px;
+	}
+
+	#nav-page-social-links {
+		margin-top: 0;
+	}
+
+	#top-half-nav {
+		font-size: 20px;
 	}
 }
 
 @media only screen and (max-width: 605px) {
 	#modal-content {
 		/*margin: 0 auto;*/
-		padding: 20px 0;
+		/*padding: 20px 0;*/
 	}
 
 /*	#social-links {
@@ -406,11 +420,11 @@ a:hover:after, a:focus:after, .active:after {
 
 @media only screen and (max-width: 1100px) {
 	div#nav-page-social-links {
-		margin-top: 30%;
+		margin-top: 20%;
 	}
 
 	div#top-half-nav {
-		margin-top: 10%;
+		margin-top: 30%;
 	}
 }
 
@@ -422,11 +436,11 @@ a:hover:after, a:focus:after, .active:after {
     }
 
     div#top-half-nav {
-		margin-top: 0;
+		margin-top: 15%;
 	}
 
     #nav-page-social-links {
-    	margin-top: 0;
+    	margin-top: 15%;
     }
 
     #navpage-links {

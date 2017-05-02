@@ -14,7 +14,6 @@ class About extends Component {
 		return(
 			<div className="stars" id="main-about">
 				<div className="twinkling">
-					<div className="clouds">
 						<div id="content-container">
 							<div className="work-intro-content container">
 								<ReactCSSTransitionGroup
@@ -92,7 +91,6 @@ class About extends Component {
 		          <AppModal />
 		        </div>
 					</div>
-				</div>
 			</div>
 		</div>
 		)
