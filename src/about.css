@@ -88,7 +88,7 @@
 }
 
 #main-about {
-	height: 2500px;
+	height: 3000px;
 }
 
 #empl-section1 {
@@ -102,7 +102,7 @@
 
 @media only screen and (max-width: 500px) {
 	#empl-edu {
-		margin-top: 27%;
+		margin-top: 85%;
 	}
 	#job-title {
 		border: 2px solid cyan;
@@ -113,7 +113,14 @@
 @media only screen and (max-width: 1000px) {
 
 	#main-about {
-		height: 2900px;
+		height: 3700px;
+	}
+}
+
+@media only screen and (min-width: 400) {
+
+	#main-about {
+		height: 3500px;
 	}
 }
 

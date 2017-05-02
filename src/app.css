@@ -9,7 +9,13 @@
 
 .navpage-links:hover {
 	background-color: cyan;
+	color: white;
 }
+
+i.cyan.empty.star.big:hover {
+	color: white;
+}
+
 
 
 * {
@@ -188,9 +194,6 @@ h1 {
 	font-style: italic;
 }
 
-#nav-page-content {
-	/*border: 2px solid blue;*/
-}
 
 #nav-page-social-links {
 	font-size: 25px;
@@ -287,16 +290,14 @@ h1 {
 	color: white;
 	font-size: 50px;
 	font-weight: 700;
-	/*border: 2px solid blue;*/
 	padding: 0 50px;
 }
 
 .navpage-links {
 	display: inline-block;
 	color: white;
-	font-size: 50px;
+	font-size: 54px;
 	font-weight: 700;
-	/*border: 2px solid blue;*/
 	padding: 20px 50px;
 }
 
@@ -370,12 +371,7 @@ a:hover:after, a:focus:after, .active:after {
 		margin: 15% auto;
 	}
 }
-/*
-@media (min-height: 600px) and (min-width: 300px) {
-	#top-half-nav {
-		margin-top: 0;
-	}
-}*/
+
 
 @media only screen and (max-width: 550px) {
 	.modal-links {
@@ -389,17 +385,6 @@ a:hover:after, a:focus:after, .active:after {
 	#top-half-nav {
 		font-size: 20px;
 	}
-}
-
-@media only screen and (max-width: 605px) {
-	#modal-content {
-		/*margin: 0 auto;*/
-		/*padding: 20px 0;*/
-	}
-
-/*	#social-links {
-		margin: 7% auto;
-	}*/
 }
 
 @media only screen and (max-width: 350px) {
