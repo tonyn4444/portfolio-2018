@@ -1,9 +1,13 @@
-import pls21 from '../images/fulls/pls21.jpg'
-import morganstanley from '../images/fulls/morganstanley.png'
+// import pls21 from '../images/fulls/pls21.jpg'
+// import morganstanley from '../images/fulls/morganstanley.png'
 // import ucdavis from '../images/fulls/ucdavis2.png'
 // import dbc from '../images/fulls/devbootcamp.png'
 import dbc from '../images/about/dbc.jpg'
 import ucdavis from '../images/about/uc-davis-aggies.svg'
+import morganstanley from '../images/about/morganstanley.png'
+import pls21 from '../images/about/pls21.jpg'
+
+
 
 
 export default function() {

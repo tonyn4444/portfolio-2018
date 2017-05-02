@@ -63,6 +63,10 @@
 	font-size: 55px;
 }
 
+#davis-pic {
+	width: 75%;
+}
+
 #what {
 	padding: 0;
 	width: 226.78px;
@@ -76,7 +80,7 @@
 
 
 .about-img-tag {
-	border: 3px solid black;
+	/*border: 3px solid black;*/
 }
 
 #decorate {

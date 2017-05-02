@@ -45,7 +45,7 @@ class About extends Component {
 						<div className="row" id="empl-section1">
 							<div className="col-md-6 about-pic">
 								<div className="thumbnail about-thumbnails">
-									<img className="about-img-tag" src={this.props.about[0].image} />
+									<img className="about-img-tag" id="pls-pic" src={this.props.about[0].image} />
 								</div>
 							</div>
 							<div className="col-md-6 about-descr">
@@ -56,7 +56,7 @@ class About extends Component {
 						<div className="row" id="empl-section1">
 							<div className="col-md-6 about-pic">
 								<div className="thumbnail about-thumbnails">
-									<img className="about-img-tag" src={this.props.about[1].image} />
+									<img className="about-img-tag" id="ms-pic" src={this.props.about[1].image} />
 								</div>
 							</div>
 							<div className="col-md-6 about-descr">
@@ -67,7 +67,7 @@ class About extends Component {
 						<div className="row" id="empl-section1">
 							<div className="col-md-6 about-pic">
 								<div className="thumbnail about-thumbnails">
-									<img className="about-img-tag" src={this.props.about[2].image} />
+									<img className="about-img-tag" id="davis-pic" src={this.props.about[2].image} />
 								</div>
 							</div>
 							<div className="col-md-6 about-descr">

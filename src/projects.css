@@ -194,18 +194,18 @@ div#bottom-half {
 
 #learn-more {
 	margin: 25px auto;
-	color: cyan;
+	color: white;
 	font-size: 40px;
 	width: 250px;
-	/*border-bottom: 4px solid cyan;*/
+	border-bottom: 4px solid cyan;
 }
 
 #learn-more:hover {
 	background-color: cyan;
+	color: white;
 }
 
 #section3 {
-	/*border: 2px solid red;*/
 	margin-top: 5%;
 	/*border-bottom: 5px solid grey;*/
   /* RGBa with 0.6 opacity */
