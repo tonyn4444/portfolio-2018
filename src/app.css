@@ -177,7 +177,7 @@ h1 {
 }
 
 #home-name-explore {
-	margin-top: 29%;
+	margin-top: 23%;
 	padding: 20px;
 	padding-bottom: 30px;
 }
@@ -298,7 +298,7 @@ h1 {
 	color: white;
 	font-size: 54px;
 	font-weight: 700;
-	padding: 20px 50px;
+	padding: 25px 50px;
 }
 
 a:hover:after, a:focus:after, .active:after {
@@ -384,6 +384,7 @@ a:hover:after, a:focus:after, .active:after {
 
 	#top-half-nav {
 		font-size: 20px;
+		margin-top: 10%;
 	}
 }
 
@@ -405,11 +406,11 @@ a:hover:after, a:focus:after, .active:after {
 
 @media only screen and (max-width: 1100px) {
 	div#nav-page-social-links {
-		margin-top: 20%;
+		margin-top: 10%;
 	}
 
 	div#top-half-nav {
-		margin-top: 30%;
+		margin-top: 10%;
 	}
 }
 
@@ -421,14 +422,15 @@ a:hover:after, a:focus:after, .active:after {
     }
 
     div#top-half-nav {
-		margin-top: 15%;
+		margin-top: 10%;
 	}
 
     #nav-page-social-links {
-    	margin-top: 15%;
+    	margin-top: 7%;
     }
 
     #navpage-links {
     	padding: 0;
     }
+
 }
