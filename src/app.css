@@ -177,13 +177,13 @@ h1 {
 }
 
 #home-name-explore {
-	margin-top: 23%;
+	margin-top: 20%;
 	padding: 20px;
 	padding-bottom: 30px;
 }
 
 #top-half-nav {
-	margin-top: 20%;
+	margin-top: 17%;
 	margin-right: 4%;
 	font-style: italic;
 }
@@ -298,7 +298,7 @@ h1 {
 	color: white;
 	font-size: 54px;
 	font-weight: 700;
-	padding: 25px 50px;
+	padding: 20px 50px;
 }
 
 a:hover:after, a:focus:after, .active:after {
@@ -406,11 +406,11 @@ a:hover:after, a:focus:after, .active:after {
 
 @media only screen and (max-width: 1100px) {
 	div#nav-page-social-links {
-		margin-top: 10%;
+		margin-top: 3%;
 	}
 
 	div#top-half-nav {
-		margin-top: 10%;
+		margin-top: 17%;
 	}
 }
 
@@ -422,15 +422,15 @@ a:hover:after, a:focus:after, .active:after {
     }
 
     div#top-half-nav {
-		margin-top: 10%;
-	}
-
-    #nav-page-social-links {
-    	margin-top: 7%;
-    }
+		margin-top: 5%;
+	}   
 
     #navpage-links {
     	padding: 0;
+    }
+
+    .navpage-links {
+    	font-size: 40px;
     }
 
 }
