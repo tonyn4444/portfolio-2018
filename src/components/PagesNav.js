@@ -26,7 +26,7 @@ const PagesNav = () => (
                 <a href="https://linkedin.com/in/tony-t-nguyen"><span className="social-links"><Icon color="cyan" name="linkedin square" />LinkedIn</span></a>
                 <a href="https://github.com/tonyn4444"><span className="social-links"><Icon color="cyan" name="github" />GitHub</span></a>
                 <a href="http://codepen.io/tonyn4444"><span className="social-links"><Icon color="cyan" name="codepen" />CodePen</span></a>
-                <a href="https://www.instagram.com/tonyspamony/?hl=en"><span className="social-links"><Icon color="cyan" name="instagram" />Twitter</span></a>
+                <a href="https://www.instagram.com/tonyspamony/?hl=en"><span className="social-links"><Icon color="cyan" name="instagram" />Instagram</span></a>
               </div>
     	     </ReactCSSTransitionGroup>
   	     </div>
