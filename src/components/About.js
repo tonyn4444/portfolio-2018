@@ -10,7 +10,6 @@ import { connect } from 'react-redux';
 
 class About extends Component {
 	render() {
-		console.log(this.props)
 		return(
 			<div className="stars" id="main-about">
 				<div className="twinkling">

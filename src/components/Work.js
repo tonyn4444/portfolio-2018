@@ -9,7 +9,6 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 class Work extends Component {
 	render() {
-		console.log(this.props)
 		return (
 			<div className="stars" id="full">
 				<div className="twinkling">

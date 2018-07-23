@@ -5,27 +5,32 @@ import { Link } from 'react-router-dom'
 export default class AppModal extends Component {
   state = { modalOpen: false }
 
-  handleOpen = (e) => this.setState({
-    modalOpen: true,
-  })
+  handleOpen = (e) => {
+    this.setState({
+      modalOpen: true,
+    });
+  }
 
-  handleClose = (e) => this.setState({
-    modalOpen: false,
-  })
+  handleClose = (e) => {
+      this.setState({
+        modalOpen: false,
+      });
+  }
 
   render() {
     return (
       <Modal
       	id="modal-full"
-        trigger={<Button inverted icon onClick={this.handleOpen}><Icon name="maximize" color="cyan" size="big" /></Button>}
+        trigger={<Button inverted icon onClick={this.handleOpen}><Icon name="expand arrows alternate" color="cyan" size="big" /></Button>}
         open={this.state.modalOpen}
         onClose={this.handleClose}
         basic
         size='fullscreen'
+        className='scrolling'
       >
         <Button inverted icon onClick={this.handleClose} className="modal-close"><Icon name="x" color="cyan" size="big" /></Button>
         <div id="modal-content">
-        	<Link to="/"><span className="modal-links"><Icon name="empty star" size="big" color="cyan" /></span></Link>
+        	<Link to="/"><span className="modal-links"><Icon name="star outline" size="big" color="cyan" /></span></Link>
         	<Link to="/projects"><span className="modal-links">Projects</span></Link>
         	<Link to="/about"><span className="modal-links">About</span></Link>
         	<Link to="/contact"><span className="modal-links">Contact</span></Link>
